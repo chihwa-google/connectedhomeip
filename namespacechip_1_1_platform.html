@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">25f1c77</span>
+   &#160;<span id="projectnumber">250ab6b</span>
    </div>
   </td>
  </tr>
@@ -115,30 +115,27 @@ Functions</h2></td></tr>
 <tr class="separator:aa95ce41639f01a45b9f1fa33029cbf03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cf597957c81be2d3a4a6f944f90fb40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a4cf597957c81be2d3a4a6f944f90fb40">MemoryAllocatorShutdown</a> ()</td></tr>
 <tr class="separator:a4cf597957c81be2d3a4a6f944f90fb40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a25352e7486414fa03671cb9da8af1"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1">MemoryAlloc</a> (size_t size)</td></tr>
+<tr class="memdesc:af1a25352e7486414fa03671cb9da8af1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by the CHIP layer to allocate a block of memory of "size" bytes.  <a href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1">More...</a><br /></td></tr>
+<tr class="separator:af1a25352e7486414fa03671cb9da8af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e74f8a96bbeccb88d656a39c68ff40"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a36e74f8a96bbeccb88d656a39c68ff40">MemoryCalloc</a> (size_t num, size_t size)</td></tr>
+<tr class="memdesc:a36e74f8a96bbeccb88d656a39c68ff40"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by the CHIP layer to allocate a block of memory for an array of num elements, each of them size bytes long, and initializes all its bits to zero.  <a href="namespacechip_1_1_platform.html#a36e74f8a96bbeccb88d656a39c68ff40">More...</a><br /></td></tr>
+<tr class="separator:a36e74f8a96bbeccb88d656a39c68ff40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68027b0fbad83aa6839779f76e52a50c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a68027b0fbad83aa6839779f76e52a50c">MemoryRealloc</a> (void *p, size_t size)</td></tr>
+<tr class="memdesc:a68027b0fbad83aa6839779f76e52a50c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by the Chip layer to change the size of the memory block pointed to by p.  <a href="namespacechip_1_1_platform.html#a68027b0fbad83aa6839779f76e52a50c">More...</a><br /></td></tr>
+<tr class="separator:a68027b0fbad83aa6839779f76e52a50c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a65a9cd65454203059a7878eb74ccc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1">MemoryFree</a> (void *p)</td></tr>
+<tr class="memdesc:a9a65a9cd65454203059a7878eb74ccc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by the Chip layer to release a memory block allocated by the <a class="el" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">MemoryAlloc()</a>, MemoryCalloc or MemoryRealloc.  <a href="namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1">More...</a><br /></td></tr>
+<tr class="separator:a9a65a9cd65454203059a7878eb74ccc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93cd137a84802c233858f319af2551a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a93cd137a84802c233858f319af2551a7">MemoryInit</a> (void *buf=nullptr, size_t bufSize=0)</td></tr>
 <tr class="memdesc:a93cd137a84802c233858f319af2551a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by CHIP layer to initialize memory and resources required for proper functionality of the CHIP memory allocator.  <a href="namespacechip_1_1_platform.html#a93cd137a84802c233858f319af2551a7">More...</a><br /></td></tr>
 <tr class="separator:a93cd137a84802c233858f319af2551a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d666c72a16291f4bb65678cef399707"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a0d666c72a16291f4bb65678cef399707">MemoryShutdown</a> ()</td></tr>
 <tr class="memdesc:a0d666c72a16291f4bb65678cef399707"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by the CHIP layer to releases all resources that were allocated by <a class="el" href="namespacechip_1_1_platform.html#a93cd137a84802c233858f319af2551a7" title="This function is called by CHIP layer to initialize memory and resources required for proper function...">MemoryInit()</a> function.  <a href="namespacechip_1_1_platform.html#a0d666c72a16291f4bb65678cef399707">More...</a><br /></td></tr>
 <tr class="separator:a0d666c72a16291f4bb65678cef399707"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcb5d3dbb8c986f9d6e84c7dcd3e8db7"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7">MemoryAlloc</a> (size_t size, bool isLongTermAlloc)</td></tr>
-<tr class="memdesc:abcb5d3dbb8c986f9d6e84c7dcd3e8db7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by the CHIP layer to allocate a block of memory of "size" bytes.  <a href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7">More...</a><br /></td></tr>
-<tr class="separator:abcb5d3dbb8c986f9d6e84c7dcd3e8db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6496051484d694e985fc4fadbac74e95"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a6496051484d694e985fc4fadbac74e95">MemoryAlloc</a> (size_t size)</td></tr>
-<tr class="memdesc:a6496051484d694e985fc4fadbac74e95"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by the CHIP layer to allocate a block of memory of "size" bytes.  <a href="namespacechip_1_1_platform.html#a6496051484d694e985fc4fadbac74e95">More...</a><br /></td></tr>
-<tr class="separator:a6496051484d694e985fc4fadbac74e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66e03b428c1d873c26c11aed99611d97"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a66e03b428c1d873c26c11aed99611d97">MemoryCalloc</a> (size_t num, size_t size)</td></tr>
-<tr class="memdesc:a66e03b428c1d873c26c11aed99611d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by the CHIP layer to allocate a block of memory for an array of num elements, each of them size bytes long, and initializes all its bits to zero.  <a href="namespacechip_1_1_platform.html#a66e03b428c1d873c26c11aed99611d97">More...</a><br /></td></tr>
-<tr class="separator:a66e03b428c1d873c26c11aed99611d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d62416c2a12cfb6715f557ca9dbe72f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a8d62416c2a12cfb6715f557ca9dbe72f">MemoryRealloc</a> (void *p, size_t size)</td></tr>
-<tr class="memdesc:a8d62416c2a12cfb6715f557ca9dbe72f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by the Chip layer to change the size of the memory block pointed to by p.  <a href="namespacechip_1_1_platform.html#a8d62416c2a12cfb6715f557ca9dbe72f">More...</a><br /></td></tr>
-<tr class="separator:a8d62416c2a12cfb6715f557ca9dbe72f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a65a9cd65454203059a7878eb74ccc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1">MemoryFree</a> (void *p)</td></tr>
-<tr class="memdesc:a9a65a9cd65454203059a7878eb74ccc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by the Chip layer to release a memory block allocated by the <a class="el" href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">MemoryAlloc()</a>, MemoryCalloc or MemoryRealloc.  <a href="namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1">More...</a><br /></td></tr>
-<tr class="separator:a9a65a9cd65454203059a7878eb74ccc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a950456e26ddbc713055c6fdb56136247"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Args&gt; </td></tr>
 <tr class="memitem:a950456e26ddbc713055c6fdb56136247"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a950456e26ddbc713055c6fdb56136247">New</a> (Args &amp;&amp;... args)</td></tr>
-<tr class="memdesc:a950456e26ddbc713055c6fdb56136247"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function wraps the operator <code>new</code> with placement-new using <a class="el" href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">MemoryAlloc()</a>.  <a href="namespacechip_1_1_platform.html#a950456e26ddbc713055c6fdb56136247">More...</a><br /></td></tr>
+<tr class="memdesc:a950456e26ddbc713055c6fdb56136247"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function wraps the operator <code>new</code> with placement-new using <a class="el" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">MemoryAlloc()</a>.  <a href="namespacechip_1_1_platform.html#a950456e26ddbc713055c6fdb56136247">More...</a><br /></td></tr>
 <tr class="separator:a950456e26ddbc713055c6fdb56136247"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43b3e4c947b3e37de31cb9c07c113592"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a43b3e4c947b3e37de31cb9c07c113592"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592">Delete</a> (T *p)</td></tr>
@@ -157,7 +154,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a2df3dad9efdb3feeb75743f7f5411db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience method for CopyString to auto-detect destination size.  <a href="namespacechip_1_1_platform.html#a2df3dad9efdb3feeb75743f7f5411db4">More...</a><br /></td></tr>
 <tr class="separator:a2df3dad9efdb3feeb75743f7f5411db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3d02605a2e4318d0229e0642e1fef2f"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#aa3d02605a2e4318d0229e0642e1fef2f">MemoryAllocString</a> (const char *string, size_t length)</td></tr>
-<tr class="memdesc:aa3d02605a2e4318d0229e0642e1fef2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function copies a C-style string to memory newly allocated by <a class="el" href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">Platform::MemoryAlloc()</a>.  <a href="namespacechip_1_1_platform.html#aa3d02605a2e4318d0229e0642e1fef2f">More...</a><br /></td></tr>
+<tr class="memdesc:aa3d02605a2e4318d0229e0642e1fef2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function copies a C-style string to memory newly allocated by <a class="el" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">Platform::MemoryAlloc()</a>.  <a href="namespacechip_1_1_platform.html#aa3d02605a2e4318d0229e0642e1fef2f">More...</a><br /></td></tr>
 <tr class="separator:aa3d02605a2e4318d0229e0642e1fef2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -323,6 +320,7 @@ Here is the call graph for this function:</div>
 <map name="namespacechip_1_1_platform_a43b3e4c947b3e37de31cb9c07c113592_cgraph" id="namespacechip_1_1_platform_a43b3e4c947b3e37de31cb9c07c113592_cgraph">
 <area shape="rect" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="5,5,169,32"/>
 <area shape="rect" href="namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="217,5,420,32"/>
+<area shape="rect" href="_private_heap_8cpp.html#abc169053b31cdb83d3ac8610594b1267" title=" " alt="" coords="468,5,599,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -360,14 +358,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6496051484d694e985fc4fadbac74e95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6496051484d694e985fc4fadbac74e95">&#9670;&nbsp;</a></span>MemoryAlloc() <span class="overload">[1/2]</span></h2>
+<a id="af1a25352e7486414fa03671cb9da8af1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a25352e7486414fa03671cb9da8af1">&#9670;&nbsp;</a></span>MemoryAlloc()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* chip::Platform::MemoryAlloc </td>
+          <td class="memname">void * chip::Platform::MemoryAlloc </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>size</em></td><td>)</td>
@@ -390,82 +388,50 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacechip_1_1_platform_af1a25352e7486414fa03671cb9da8af1_cgraph.png" border="0" usemap="#namespacechip_1_1_platform_af1a25352e7486414fa03671cb9da8af1_cgraph" alt=""/></div>
+<map name="namespacechip_1_1_platform_af1a25352e7486414fa03671cb9da8af1_cgraph" id="namespacechip_1_1_platform_af1a25352e7486414fa03671cb9da8af1_cgraph">
+<area shape="rect" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="5,5,212,32"/>
+<area shape="rect" href="_private_heap_8cpp.html#a64e27a5f88358df24ce6f38c68dba99d" title=" " alt="" coords="260,5,395,32"/>
+</map>
 </div>
-</div>
-<a id="abcb5d3dbb8c986f9d6e84c7dcd3e8db7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcb5d3dbb8c986f9d6e84c7dcd3e8db7">&#9670;&nbsp;</a></span>MemoryAlloc() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* chip::Platform::MemoryAlloc </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isLongTermAlloc</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This function is called by the CHIP layer to allocate a block of memory of "size" bytes. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Specifies requested memory size in bytes.</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">isLongTermAlloc</td><td>A Boolean indicating whether (true) or not (false) the requested memory block is for long term use. A long term allocation is memory that should stay allocated until secure session/handshake is complete. Examples of a long term allocation include blocks allocated for CASE/PASE objects and their context data. A short term allocation is a memory needed to perform specific operation and can be released immediately after that. This input helps to optimize memory utilization in a memory constrained system. Use of this parameter is arbitrary and depends on function implementer. For example, this parameter is ignored when the C Standard Library malloc() is used.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">Pointer</td><td>to a memory block in case of success. </td></tr>
-    <tr><td class="paramname">NULL-pointer</td><td>if memory allocation fails. </td></tr>
-  </table>
-  </dd>
-</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="namespacechip_1_1_platform_abcb5d3dbb8c986f9d6e84c7dcd3e8db7_icgraph.png" border="0" usemap="#namespacechip_1_1_platform_abcb5d3dbb8c986f9d6e84c7dcd3e8db7_icgraph" alt=""/></div>
-<map name="namespacechip_1_1_platform_abcb5d3dbb8c986f9d6e84c7dcd3e8db7_icgraph" id="namespacechip_1_1_platform_abcb5d3dbb8c986f9d6e84c7dcd3e8db7_icgraph">
-<area shape="rect" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="1096,356,1303,383"/>
-<area shape="rect" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#a465f3280979fcf43cba12061279485a8" title=" " alt="" coords="791,5,1034,61"/>
-<area shape="rect" href="classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#a82f8d7875efde1f0dc1bad7369521e46" title=" " alt="" coords="777,86,1048,157"/>
-<area shape="rect" href="_c_h_i_p_platform_memory_8h.html#a27cbb277260b7155d9d825b7a1b725a5" title=" " alt="" coords="815,181,1010,208"/>
-<area shape="rect" href="_c_h_i_p_platform_memory_8h.html#a5e8a6529e69d336432129dc93a768697" title=" " alt="" coords="783,232,1042,259"/>
-<area shape="rect" href="classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a8b9badffc559b45eea707be9ab7604da" title="Allocates and returns a buffer containing the value of the current byte or UTF8 string." alt="" coords="835,283,991,325"/>
-<area shape="rect" href="classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ad3a24b6ba80a5567206c10a087899820" title="Allocates and returns a buffer containing the null&#45;terminated value of the current byte or UTF8 strin..." alt="" coords="835,349,991,390"/>
-<area shape="rect" href="classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#ab035699d36ec15f67599ee1be802da99" title=" " alt="" coords="777,414,1048,485"/>
-<area shape="rect" href="classchip_1_1_platform_1_1_impl_1_1_platform_memory_management.html#a579be766f9ca194f51ebf8c5bd24f5a5" title=" " alt="" coords="799,509,1026,565"/>
-<area shape="rect" href="namespacechip_1_1_platform.html#aa3d02605a2e4318d0229e0642e1fef2f" title="This function copies a C&#45;style string to memory newly allocated by Platform::MemoryAlloc()." alt="" coords="809,590,1016,631"/>
-<area shape="rect" href="namespacechip_1_1_platform.html#a950456e26ddbc713055c6fdb56136247" title="This function wraps the operator new with placement&#45;new using MemoryAlloc()." alt="" coords="837,656,988,683"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="815,707,1010,749"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#afc5bd9c4127df0de63128717d304e9f1" title="Creates a copy of a packet buffer (or chain)." alt="" coords="507,462,701,503"/>
-<area shape="rect" href="namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="505,527,703,569"/>
-<area shape="rect" href="classchip_1_1_additional_data_payload_generator.html#a251e4fb292fb802ab490bb13f9a36ae5" title="Generate additional data payload (i.e." alt="" coords="479,593,729,649"/>
-<area shape="rect" href="classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="495,674,713,715"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="507,739,701,781"/>
-<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a9135e9c3738b3f5a02e2ef9b5b673bde" title="Allocates a packet buffer with space for message headers and footers." alt="" coords="487,805,721,832"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a4a486c4305df89f772f37f5c29a86967" title="Allocates a packet buffer with initial contents." alt="" coords="507,857,701,898"/>
-<area shape="rect" href="classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941" title="Trigger a paired device to re&#45;enter the pairing mode." alt="" coords="517,922,691,963"/>
-<area shape="rect" href="classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="229,397,430,438"/>
-<area shape="rect" href="classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="228,462,431,503"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="242,527,417,569"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,495,169,537"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,561,180,602"/>
-<area shape="rect" href="classchip_1_1_network_provisioning.html#a9a293f2ca5722f077ab4227559a5929e" title=" " alt="" coords="233,794,425,835"/>
-<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="231,859,427,901"/>
+<div class="center"><img src="namespacechip_1_1_platform_af1a25352e7486414fa03671cb9da8af1_icgraph.png" border="0" usemap="#namespacechip_1_1_platform_af1a25352e7486414fa03671cb9da8af1_icgraph" alt=""/></div>
+<map name="namespacechip_1_1_platform_af1a25352e7486414fa03671cb9da8af1_icgraph" id="namespacechip_1_1_platform_af1a25352e7486414fa03671cb9da8af1_icgraph">
+<area shape="rect" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="1116,343,1323,369"/>
+<area shape="rect" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#a465f3280979fcf43cba12061279485a8" title=" " alt="" coords="811,5,1054,61"/>
+<area shape="rect" href="classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#a82f8d7875efde1f0dc1bad7369521e46" title=" " alt="" coords="797,86,1068,157"/>
+<area shape="rect" href="_c_h_i_p_platform_memory_8h.html#a27cbb277260b7155d9d825b7a1b725a5" title=" " alt="" coords="835,181,1030,208"/>
+<area shape="rect" href="classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a8b9badffc559b45eea707be9ab7604da" title="Allocates and returns a buffer containing the value of the current byte or UTF8 string." alt="" coords="855,233,1011,274"/>
+<area shape="rect" href="classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ad3a24b6ba80a5567206c10a087899820" title="Allocates and returns a buffer containing the null&#45;terminated value of the current byte or UTF8 strin..." alt="" coords="855,298,1011,339"/>
+<area shape="rect" href="classchip_1_1_platform_1_1_impl_1_1_platform_memory_management.html#a579be766f9ca194f51ebf8c5bd24f5a5" title=" " alt="" coords="819,364,1046,420"/>
+<area shape="rect" href="namespacechip_1_1_platform.html#aa3d02605a2e4318d0229e0642e1fef2f" title="This function copies a C&#45;style string to memory newly allocated by Platform::MemoryAlloc()." alt="" coords="829,445,1036,486"/>
+<area shape="rect" href="namespacechip_1_1_platform.html#a36e74f8a96bbeccb88d656a39c68ff40" title="This function is called by the CHIP layer to allocate a block of memory for an array of num elements,..." alt="" coords="825,511,1040,537"/>
+<area shape="rect" href="namespacechip_1_1_platform.html#a950456e26ddbc713055c6fdb56136247" title="This function wraps the operator new with placement&#45;new using MemoryAlloc()." alt="" coords="857,561,1008,588"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="835,821,1030,862"/>
+<area shape="rect" href="classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#adce84f324d3e2ae13b276583c27116e2" title=" " alt="" coords="479,382,749,453"/>
+<area shape="rect" href="_c_h_i_p_platform_memory_8h.html#a409fb24f73f30f6604532146238461a2" title=" " alt="" coords="513,477,715,504"/>
+<area shape="rect" href="classchip_1_1_platform_1_1_impl_1_1_platform_memory_management.html#a4acd71e05b1d7d4036b02f2e73e47e3c" title=" " alt="" coords="501,528,727,584"/>
+<area shape="rect" href="_e_f_r32_2_thread_stack_manager_impl_8cpp.html#a5ebc4edb990923ac45cf098b02e08be2" title=" " alt="" coords="279,477,380,504"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#afc5bd9c4127df0de63128717d304e9f1" title="Creates a copy of a packet buffer (or chain)." alt="" coords="517,609,711,650"/>
+<area shape="rect" href="namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="515,674,713,715"/>
+<area shape="rect" href="classchip_1_1_additional_data_payload_generator.html#a251e4fb292fb802ab490bb13f9a36ae5" title="Generate additional data payload (i.e." alt="" coords="489,740,739,796"/>
+<area shape="rect" href="classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="505,821,723,862"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="517,886,711,927"/>
+<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a9135e9c3738b3f5a02e2ef9b5b673bde" title="Allocates a packet buffer with space for message headers and footers." alt="" coords="497,952,731,979"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a4a486c4305df89f772f37f5c29a86967" title="Allocates a packet buffer with initial contents." alt="" coords="517,1003,711,1045"/>
+<area shape="rect" href="classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941" title="Trigger a paired device to re&#45;enter the pairing mode." alt="" coords="527,1069,701,1110"/>
+<area shape="rect" href="classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="229,543,430,585"/>
+<area shape="rect" href="classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="228,609,431,650"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="242,674,417,715"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,642,169,683"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,707,180,749"/>
+<area shape="rect" href="classchip_1_1_network_provisioning.html#a9a293f2ca5722f077ab4227559a5929e" title=" " alt="" coords="233,941,425,982"/>
+<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="231,1006,427,1047"/>
 </map>
 </div>
 
@@ -496,6 +462,16 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacechip_1_1_platform_aa95ce41639f01a45b9f1fa33029cbf03_cgraph.png" border="0" usemap="#namespacechip_1_1_platform_aa95ce41639f01a45b9f1fa33029cbf03_cgraph" alt=""/></div>
+<map name="namespacechip_1_1_platform_aa95ce41639f01a45b9f1fa33029cbf03_cgraph" id="namespacechip_1_1_platform_aa95ce41639f01a45b9f1fa33029cbf03_cgraph">
+<area shape="rect" title=" " alt="" coords="5,42,260,69"/>
+<area shape="rect" href="classchip_1_1_system_1_1_mutex.html#a71ad2bce59bfc56b67345d8da0ef1375" title=" " alt="" coords="308,5,463,47"/>
+<area shape="rect" href="_private_heap_8cpp.html#aa0c6e7dc6099ad844c2f90776f3aa367" title=" " alt="" coords="324,71,447,98"/>
+</map>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -574,7 +550,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>This function copies a C-style string to memory newly allocated by <a class="el" href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">Platform::MemoryAlloc()</a>. </p>
+<p>This function copies a C-style string to memory newly allocated by <a class="el" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">Platform::MemoryAlloc()</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">string</td><td>String to be copied.</td></tr>
@@ -596,20 +572,21 @@ Here is the call graph for this function:</div>
 <map name="namespacechip_1_1_platform_aa3d02605a2e4318d0229e0642e1fef2f_cgraph" id="namespacechip_1_1_platform_aa3d02605a2e4318d0229e0642e1fef2f_cgraph">
 <area shape="rect" title="This function copies a C&#45;style string to memory newly allocated by Platform::MemoryAlloc()." alt="" coords="5,23,212,65"/>
 <area shape="rect" href="namespacechip_1_1_platform.html#a3e0f7bf473695f636ba4bfd38fbe88d6" title="Copies a C&#45;style string." alt="" coords="267,5,459,32"/>
-<area shape="rect" href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="260,56,467,83"/>
+<area shape="rect" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="260,56,467,83"/>
+<area shape="rect" href="_private_heap_8cpp.html#a64e27a5f88358df24ce6f38c68dba99d" title=" " alt="" coords="515,56,649,83"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a66e03b428c1d873c26c11aed99611d97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66e03b428c1d873c26c11aed99611d97">&#9670;&nbsp;</a></span>MemoryCalloc()</h2>
+<a id="a36e74f8a96bbeccb88d656a39c68ff40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36e74f8a96bbeccb88d656a39c68ff40">&#9670;&nbsp;</a></span>MemoryCalloc()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* chip::Platform::MemoryCalloc </td>
+          <td class="memname">void * chip::Platform::MemoryCalloc </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>num</em>, </td>
@@ -645,10 +622,20 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacechip_1_1_platform_a36e74f8a96bbeccb88d656a39c68ff40_cgraph.png" border="0" usemap="#namespacechip_1_1_platform_a36e74f8a96bbeccb88d656a39c68ff40_cgraph" alt=""/></div>
+<map name="namespacechip_1_1_platform_a36e74f8a96bbeccb88d656a39c68ff40_cgraph" id="namespacechip_1_1_platform_a36e74f8a96bbeccb88d656a39c68ff40_cgraph">
+<area shape="rect" title="This function is called by the CHIP layer to allocate a block of memory for an array of num elements,..." alt="" coords="5,5,220,32"/>
+<area shape="rect" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="268,5,475,32"/>
+<area shape="rect" href="_private_heap_8cpp.html#a64e27a5f88358df24ce6f38c68dba99d" title=" " alt="" coords="523,5,657,32"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="namespacechip_1_1_platform_a66e03b428c1d873c26c11aed99611d97_icgraph.png" border="0" usemap="#namespacechip_1_1_platform_a66e03b428c1d873c26c11aed99611d97_icgraph" alt=""/></div>
-<map name="namespacechip_1_1_platform_a66e03b428c1d873c26c11aed99611d97_icgraph" id="namespacechip_1_1_platform_a66e03b428c1d873c26c11aed99611d97_icgraph">
+<div class="center"><img src="namespacechip_1_1_platform_a36e74f8a96bbeccb88d656a39c68ff40_icgraph.png" border="0" usemap="#namespacechip_1_1_platform_a36e74f8a96bbeccb88d656a39c68ff40_icgraph" alt=""/></div>
+<map name="namespacechip_1_1_platform_a36e74f8a96bbeccb88d656a39c68ff40_icgraph" id="namespacechip_1_1_platform_a36e74f8a96bbeccb88d656a39c68ff40_icgraph">
 <area shape="rect" title="This function is called by the CHIP layer to allocate a block of memory for an array of num elements,..." alt="" coords="473,101,688,127"/>
 <area shape="rect" href="classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#adce84f324d3e2ae13b276583c27116e2" title=" " alt="" coords="155,5,425,76"/>
 <area shape="rect" href="_c_h_i_p_platform_memory_8h.html#a409fb24f73f30f6604532146238461a2" title=" " alt="" coords="189,101,391,127"/>
@@ -740,13 +727,22 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>This function is called by the Chip layer to release a memory block allocated by the <a class="el" href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">MemoryAlloc()</a>, MemoryCalloc or MemoryRealloc. </p>
+<p>This function is called by the Chip layer to release a memory block allocated by the <a class="el" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">MemoryAlloc()</a>, MemoryCalloc or MemoryRealloc. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">p</td><td>Pointer to a memory block that should be released. </td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacechip_1_1_platform_a9a65a9cd65454203059a7878eb74ccc1_cgraph.png" border="0" usemap="#namespacechip_1_1_platform_a9a65a9cd65454203059a7878eb74ccc1_cgraph" alt=""/></div>
+<map name="namespacechip_1_1_platform_a9a65a9cd65454203059a7878eb74ccc1_cgraph" id="namespacechip_1_1_platform_a9a65a9cd65454203059a7878eb74ccc1_cgraph">
+<area shape="rect" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="5,5,208,32"/>
+<area shape="rect" href="_private_heap_8cpp.html#abc169053b31cdb83d3ac8610594b1267" title=" " alt="" coords="256,5,387,32"/>
+</map>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -839,8 +835,10 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespacechip_1_1_platform_a93cd137a84802c233858f319af2551a7_cgraph.png" border="0" usemap="#namespacechip_1_1_platform_a93cd137a84802c233858f319af2551a7_cgraph" alt=""/></div>
 <map name="namespacechip_1_1_platform_a93cd137a84802c233858f319af2551a7_cgraph" id="namespacechip_1_1_platform_a93cd137a84802c233858f319af2551a7_cgraph">
-<area shape="rect" title="This function is called by CHIP layer to initialize memory and resources required for proper function..." alt="" coords="5,5,201,32"/>
-<area shape="rect" href="namespacechip_1_1_platform.html#aa95ce41639f01a45b9f1fa33029cbf03" title=" " alt="" coords="249,5,504,32"/>
+<area shape="rect" title="This function is called by CHIP layer to initialize memory and resources required for proper function..." alt="" coords="5,42,201,69"/>
+<area shape="rect" href="namespacechip_1_1_platform.html#aa95ce41639f01a45b9f1fa33029cbf03" title=" " alt="" coords="249,42,504,69"/>
+<area shape="rect" href="classchip_1_1_system_1_1_mutex.html#a71ad2bce59bfc56b67345d8da0ef1375" title=" " alt="" coords="552,5,707,47"/>
+<area shape="rect" href="_private_heap_8cpp.html#aa0c6e7dc6099ad844c2f90776f3aa367" title=" " alt="" coords="568,71,691,98"/>
 </map>
 </div>
 <div class="dynheader">
@@ -895,14 +893,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a8d62416c2a12cfb6715f557ca9dbe72f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d62416c2a12cfb6715f557ca9dbe72f">&#9670;&nbsp;</a></span>MemoryRealloc()</h2>
+<a id="a68027b0fbad83aa6839779f76e52a50c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68027b0fbad83aa6839779f76e52a50c">&#9670;&nbsp;</a></span>MemoryRealloc()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* chip::Platform::MemoryRealloc </td>
+          <td class="memname">void * chip::Platform::MemoryRealloc </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>p</em>, </td>
@@ -939,10 +937,22 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacechip_1_1_platform_a68027b0fbad83aa6839779f76e52a50c_cgraph.png" border="0" usemap="#namespacechip_1_1_platform_a68027b0fbad83aa6839779f76e52a50c_cgraph" alt=""/></div>
+<map name="namespacechip_1_1_platform_a68027b0fbad83aa6839779f76e52a50c_cgraph" id="namespacechip_1_1_platform_a68027b0fbad83aa6839779f76e52a50c_cgraph">
+<area shape="rect" title="This function is called by the Chip layer to change the size of the memory block pointed to by p." alt="" coords="5,56,228,83"/>
+<area shape="rect" href="_private_heap_8cpp.html#a5f66482eac1abd1a9aa67568a2e447b4" title=" " alt="" coords="276,56,427,83"/>
+<area shape="rect" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="503,5,581,32"/>
+<area shape="rect" href="_private_heap_8cpp.html#a64e27a5f88358df24ce6f38c68dba99d" title=" " alt="" coords="475,56,609,83"/>
+<area shape="rect" href="_private_heap_8cpp.html#abc169053b31cdb83d3ac8610594b1267" title=" " alt="" coords="477,107,607,133"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="namespacechip_1_1_platform_a8d62416c2a12cfb6715f557ca9dbe72f_icgraph.png" border="0" usemap="#namespacechip_1_1_platform_a8d62416c2a12cfb6715f557ca9dbe72f_icgraph" alt=""/></div>
-<map name="namespacechip_1_1_platform_a8d62416c2a12cfb6715f557ca9dbe72f_icgraph" id="namespacechip_1_1_platform_a8d62416c2a12cfb6715f557ca9dbe72f_icgraph">
+<div class="center"><img src="namespacechip_1_1_platform_a68027b0fbad83aa6839779f76e52a50c_icgraph.png" border="0" usemap="#namespacechip_1_1_platform_a68027b0fbad83aa6839779f76e52a50c_icgraph" alt=""/></div>
+<map name="namespacechip_1_1_platform_a68027b0fbad83aa6839779f76e52a50c_icgraph" id="namespacechip_1_1_platform_a68027b0fbad83aa6839779f76e52a50c_icgraph">
 <area shape="rect" title="This function is called by the Chip layer to change the size of the memory block pointed to by p." alt="" coords="264,5,487,32"/>
 <area shape="rect" href="_c_h_i_p_platform_memory_8h.html#ae452291d5f37dc2be6af2eaf0afdc9cb" title=" " alt="" coords="5,5,216,32"/>
 </map>
@@ -1015,7 +1025,7 @@ template&lt;typename T , typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>This function wraps the operator <code>new</code> with placement-new using <a class="el" href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">MemoryAlloc()</a>. </p>
+<p>This function wraps the operator <code>new</code> with placement-new using <a class="el" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">MemoryAlloc()</a>. </p>
 <p>Instead of p = new T(arguments) use p = New&lt;T&gt;(arguments) In a few cases it may be necessary to add explicit casts to arguments, notably when passing integer constants to smaller integer parameters. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1023,7 +1033,8 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="namespacechip_1_1_platform_a950456e26ddbc713055c6fdb56136247_cgraph.png" border="0" usemap="#namespacechip_1_1_platform_a950456e26ddbc713055c6fdb56136247_cgraph" alt=""/></div>
 <map name="namespacechip_1_1_platform_a950456e26ddbc713055c6fdb56136247_cgraph" id="namespacechip_1_1_platform_a950456e26ddbc713055c6fdb56136247_cgraph">
 <area shape="rect" title="This function wraps the operator new with placement&#45;new using MemoryAlloc()." alt="" coords="5,5,156,32"/>
-<area shape="rect" href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="204,5,411,32"/>
+<area shape="rect" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="204,5,411,32"/>
+<area shape="rect" href="_private_heap_8cpp.html#a64e27a5f88358df24ce6f38c68dba99d" title=" " alt="" coords="459,5,593,32"/>
 </map>
 </div>
 
@@ -1058,7 +1069,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_platform.html">Platform</a></li>
-    <li class="footer">Generated on Tue Mar 30 2021 13:29:26 for Connected Home over IP by
+    <li class="footer">Generated on Tue Mar 30 2021 16:06:30 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

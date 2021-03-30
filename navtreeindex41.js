@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a57990ab87af2262fd64b6514644dfdd7":[11,0,7,10,5,47],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a5ba4362277d1b4590c86e1113a653381":[11,0,7,10,5,8],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a5da64c40172199f3d4c5dfd376f23c37":[11,0,7,10,5,43],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a5e3f88d3ddb04517e635b9cd0bae78be":[11,0,7,10,5,30],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a5fefb4704e0b8b7a37c3c1782d1eca7b":[11,0,7,10,5,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "structchip_1_1_crypto_1_1_spake2p___context.html#a504facf508fa33fcbd628f56484530e0":[10,0,1,11,10,5],
 "structchip_1_1_crypto_1_1_spake2p___context.html#a5759943686288aa6804e2940e08dfcee":[10,0,1,11,10,15],
 "structchip_1_1_crypto_1_1_spake2p___context.html#a65c5305788ff7d1044a4a1454bd89c02":[10,0,1,11,10,0],
-"structchip_1_1_crypto_1_1_spake2p___context.html#a802c94ab89170ae51d0ea86fe89ce540":[10,0,1,11,10,3],
-"structchip_1_1_crypto_1_1_spake2p___context.html#a8c8baba2582fd62f7c49fc4d9d9c8c8a":[10,0,1,11,10,13],
-"structchip_1_1_crypto_1_1_spake2p___context.html#aa5199a6f5f4032acd36ce7dccd15d072":[10,0,1,11,10,6]
+"structchip_1_1_crypto_1_1_spake2p___context.html#a802c94ab89170ae51d0ea86fe89ce540":[10,0,1,11,10,3]
 };

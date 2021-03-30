@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">25f1c77</span>
+   &#160;<span id="projectnumber">250ab6b</span>
    </div>
   </td>
  </tr>
@@ -127,53 +127,62 @@ $(document).ready(function(){initNavTree('_private_heap_8h_source.html',''); ini
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">// Marks the specified block as free</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_private_heap_8h.html#abc169053b31cdb83d3ac8610594b1267">PrivateHeapFree</a>(<span class="keywordtype">void</span> * ptr);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_private_heap_8h.html#ab5c2576c08cde6b5cf0c8a5edaddf771">PrivateHeapDump</a>(<span class="keywordtype">void</span> * ptr);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;} <span class="comment">// extern &quot;C&quot;</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">namespace </span>internal {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">// Heap structure, exposed for tests</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">//  +---------+---------+-----+                      +---------+-----------+</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">//  | prev: 0 | next: n | ... |  ....&lt;n_bytes&gt; ....  | prev: n | next: ... |</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">//  +---------+---------+-----+                      +---------+-----------+</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">struct </span>PrivateHeapBlockHeader</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    uint32_t prevBytes;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    uint32_t nextBytes;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    uint32_t state;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    uint32_t checksum; <span class="comment">// super-basic attempt to detect errors</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;};</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;} <span class="comment">// namespace internal</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;constexpr <span class="keywordtype">size_t</span> kPrivateHeapAllocationAlignment = <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">std::alignment_of&lt;max_align_t&gt;::value</a>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#endif // ifdef __cplusplus</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// Reallocate a block to a new size</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">// Special arguments:</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">//    - null ptr value represents an Alloc</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">//    - zero size represents a Free</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> * <a class="code" href="_private_heap_8h.html#a5f66482eac1abd1a9aa67568a2e447b4">PrivateHeapRealloc</a>(<span class="keywordtype">void</span> * heap, <span class="keywordtype">void</span> * ptr, <span class="keywordtype">size_t</span> size);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_private_heap_8h.html#ab5c2576c08cde6b5cf0c8a5edaddf771">PrivateHeapDump</a>(<span class="keywordtype">void</span> * ptr);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">namespace </span>internal {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">// Heap structure, exposed for tests</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">//  +---------+---------+-----+                      +---------+-----------+</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">//  | prev: 0 | next: n | ... |  ....&lt;n_bytes&gt; ....  | prev: n | next: ... |</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">//  +---------+---------+-----+                      +---------+-----------+</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">struct </span>PrivateHeapBlockHeader</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;{</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    uint32_t prevBytes;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    uint32_t nextBytes;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    uint32_t state;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    uint32_t checksum; <span class="comment">// super-basic attempt to detect errors</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;};</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;} <span class="comment">// namespace internal</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;constexpr <span class="keywordtype">size_t</span> kPrivateHeapAllocationAlignment = <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">std::alignment_of&lt;max_align_t&gt;::value</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif // ifdef __cplusplus</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="a_private_heap_8h_html_a64e27a5f88358df24ce6f38c68dba99d"><div class="ttname"><a href="_private_heap_8h.html#a64e27a5f88358df24ce6f38c68dba99d">PrivateHeapAlloc</a></div><div class="ttdeci">void * PrivateHeapAlloc(void *heap, size_t size)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:133</div></div>
+<div class="ttc" id="a_private_heap_8cpp_html_a5f66482eac1abd1a9aa67568a2e447b4"><div class="ttname"><a href="_private_heap_8cpp.html#a5f66482eac1abd1a9aa67568a2e447b4">PrivateHeapRealloc</a></div><div class="ttdeci">void * PrivateHeapRealloc(void *heap, void *ptr, size_t size)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:272</div></div>
+<div class="ttc" id="a_private_heap_8h_html_a64e27a5f88358df24ce6f38c68dba99d"><div class="ttname"><a href="_private_heap_8h.html#a64e27a5f88358df24ce6f38c68dba99d">PrivateHeapAlloc</a></div><div class="ttdeci">void * PrivateHeapAlloc(void *heap, size_t size)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:135</div></div>
+<div class="ttc" id="a_private_heap_8h_html_a5f66482eac1abd1a9aa67568a2e447b4"><div class="ttname"><a href="_private_heap_8h.html#a5f66482eac1abd1a9aa67568a2e447b4">PrivateHeapRealloc</a></div><div class="ttdeci">void * PrivateHeapRealloc(void *heap, void *ptr, size_t size)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:272</div></div>
 <div class="ttc" id="a_code_utils_8h_html"><div class="ttname"><a href="_code_utils_8h.html">CodeUtils.h</a></div></div>
-<div class="ttc" id="a_private_heap_8cpp_html_aa0c6e7dc6099ad844c2f90776f3aa367"><div class="ttname"><a href="_private_heap_8cpp.html#aa0c6e7dc6099ad844c2f90776f3aa367">PrivateHeapInit</a></div><div class="ttdeci">void PrivateHeapInit(void *heap, size_t size)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:99</div></div>
+<div class="ttc" id="a_private_heap_8cpp_html_aa0c6e7dc6099ad844c2f90776f3aa367"><div class="ttname"><a href="_private_heap_8cpp.html#aa0c6e7dc6099ad844c2f90776f3aa367">PrivateHeapInit</a></div><div class="ttdeci">void PrivateHeapInit(void *heap, size_t size)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:101</div></div>
 <div class="ttc" id="a_c_h_i_p_logging_8h_html_a99937442450213bf02433dd819fd7050"><div class="ttname"><a href="_c_h_i_p_logging_8h.html#a99937442450213bf02433dd819fd7050">ChipLogProgress</a></div><div class="ttdeci">#define ChipLogProgress(MOD, MSG,...)</div><div class="ttdoc">Log a chip message for the specified module in the 'Progress' category.</div><div class="ttdef"><b>Definition:</b> CHIPLogging.h:119</div></div>
-<div class="ttc" id="a_private_heap_8cpp_html_a64e27a5f88358df24ce6f38c68dba99d"><div class="ttname"><a href="_private_heap_8cpp.html#a64e27a5f88358df24ce6f38c68dba99d">PrivateHeapAlloc</a></div><div class="ttdeci">void * PrivateHeapAlloc(void *heap, size_t size)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:133</div></div>
-<div class="ttc" id="a_private_heap_8h_html_ab5c2576c08cde6b5cf0c8a5edaddf771"><div class="ttname"><a href="_private_heap_8h.html#ab5c2576c08cde6b5cf0c8a5edaddf771">PrivateHeapDump</a></div><div class="ttdeci">void PrivateHeapDump(void *ptr)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:270</div></div>
-<div class="ttc" id="a_private_heap_8cpp_html_a90d84f76c8d894e5b6ac0fd8473b110d"><div class="ttname"><a href="_private_heap_8cpp.html#a90d84f76c8d894e5b6ac0fd8473b110d">PrivateHeapDump</a></div><div class="ttdeci">void PrivateHeapDump(void *top)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:270</div></div>
-<div class="ttc" id="a_private_heap_8h_html_aa0c6e7dc6099ad844c2f90776f3aa367"><div class="ttname"><a href="_private_heap_8h.html#aa0c6e7dc6099ad844c2f90776f3aa367">PrivateHeapInit</a></div><div class="ttdeci">void PrivateHeapInit(void *heap, size_t size)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:99</div></div>
+<div class="ttc" id="a_private_heap_8cpp_html_a64e27a5f88358df24ce6f38c68dba99d"><div class="ttname"><a href="_private_heap_8cpp.html#a64e27a5f88358df24ce6f38c68dba99d">PrivateHeapAlloc</a></div><div class="ttdeci">void * PrivateHeapAlloc(void *heap, size_t size)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:135</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ab52833322402f0f0f1cb68f5ee5d1292"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292">memcpy</a></div><div class="ttdeci">memcpy(threadData.ThreadExtendedPANId, xpanIdBytes.data(), xpanIdBytes.size())</div></div>
+<div class="ttc" id="a_private_heap_8h_html_ab5c2576c08cde6b5cf0c8a5edaddf771"><div class="ttname"><a href="_private_heap_8h.html#ab5c2576c08cde6b5cf0c8a5edaddf771">PrivateHeapDump</a></div><div class="ttdeci">void PrivateHeapDump(void *ptr)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:309</div></div>
+<div class="ttc" id="a_private_heap_8cpp_html_a90d84f76c8d894e5b6ac0fd8473b110d"><div class="ttname"><a href="_private_heap_8cpp.html#a90d84f76c8d894e5b6ac0fd8473b110d">PrivateHeapDump</a></div><div class="ttdeci">void PrivateHeapDump(void *top)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:309</div></div>
+<div class="ttc" id="a_private_heap_8h_html_aa0c6e7dc6099ad844c2f90776f3aa367"><div class="ttname"><a href="_private_heap_8h.html#aa0c6e7dc6099ad844c2f90776f3aa367">PrivateHeapInit</a></div><div class="ttdeci">void PrivateHeapInit(void *heap, size_t size)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:101</div></div>
 <div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ac50abae6d98e9974b60124d04929c51e"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a></div><div class="ttdeci">JNIEnv jobject jint jbyteArray jbyteArray jbyteArray value</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:605</div></div>
 <div class="ttc" id="a_c_h_i_p_logging_8h_html"><div class="ttname"><a href="_c_h_i_p_logging_8h.html">CHIPLogging.h</a></div></div>
 <div class="ttc" id="a_private_heap_8h_html"><div class="ttname"><a href="_private_heap_8h.html">PrivateHeap.h</a></div></div>
 <div class="ttc" id="a_c_h_i_p_logging_8h_html_a9b0000281e6340c0477a884d87f579a1"><div class="ttname"><a href="_c_h_i_p_logging_8h.html#a9b0000281e6340c0477a884d87f579a1">ChipLogError</a></div><div class="ttdeci">#define ChipLogError(MOD, MSG,...)</div><div class="ttdoc">Log a chip message for the specified module in the 'Error' category.</div><div class="ttdef"><b>Definition:</b> CHIPLogging.h:98</div></div>
-<div class="ttc" id="a_private_heap_8cpp_html_abc169053b31cdb83d3ac8610594b1267"><div class="ttname"><a href="_private_heap_8cpp.html#abc169053b31cdb83d3ac8610594b1267">PrivateHeapFree</a></div><div class="ttdeci">void PrivateHeapFree(void *ptr)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:207</div></div>
-<div class="ttc" id="a_private_heap_8h_html_abc169053b31cdb83d3ac8610594b1267"><div class="ttname"><a href="_private_heap_8h.html#abc169053b31cdb83d3ac8610594b1267">PrivateHeapFree</a></div><div class="ttdeci">void PrivateHeapFree(void *ptr)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:207</div></div>
+<div class="ttc" id="a_private_heap_8cpp_html_abc169053b31cdb83d3ac8610594b1267"><div class="ttname"><a href="_private_heap_8cpp.html#abc169053b31cdb83d3ac8610594b1267">PrivateHeapFree</a></div><div class="ttdeci">void PrivateHeapFree(void *ptr)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:209</div></div>
+<div class="ttc" id="a_private_heap_8h_html_abc169053b31cdb83d3ac8610594b1267"><div class="ttname"><a href="_private_heap_8h.html#abc169053b31cdb83d3ac8610594b1267">PrivateHeapFree</a></div><div class="ttdeci">void PrivateHeapFree(void *ptr)</div><div class="ttdef"><b>Definition:</b> PrivateHeap.cpp:209</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_07debba6119e8fae289f5c0650c95439.html">support</a></li><li class="navelem"><a class="el" href="_private_heap_8h.html">PrivateHeap.h</a></li>
-    <li class="footer">Generated on Tue Mar 30 2021 13:29:22 for Connected Home over IP by
+    <li class="footer">Generated on Tue Mar 30 2021 16:06:27 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

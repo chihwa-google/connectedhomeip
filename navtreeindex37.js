@@ -1,11 +1,13 @@
 var NAVTREEINDEX37 =
 {
+"functions_c.html":[10,3,0,4],
+"functions_d.html":[10,3,0,5],
 "functions_e.html":[10,3,0,6],
 "functions_enum.html":[10,3,4],
 "functions_eval.html":[10,3,5],
 "functions_f.html":[10,3,0,7],
-"functions_func.html":[10,3,1,0],
 "functions_func.html":[10,3,1],
+"functions_func.html":[10,3,1,0],
 "functions_func_a.html":[10,3,1,1],
 "functions_func_b.html":[10,3,1,2],
 "functions_func_c.html":[10,3,1,3],
@@ -50,8 +52,8 @@ var NAVTREEINDEX37 =
 "functions_type.html":[10,3,3],
 "functions_u.html":[10,3,0,22],
 "functions_v.html":[10,3,0,23],
-"functions_vars.html":[10,3,2,0],
 "functions_vars.html":[10,3,2],
+"functions_vars.html":[10,3,2,0],
 "functions_vars_a.html":[10,3,2,1],
 "functions_vars_b.html":[10,3,2,2],
 "functions_vars_c.html":[10,3,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "log__chip_8h_source.html":[11,0,6,3,1,0,0,0],
 "logging_2____init_____8py.html":[11,0,1,1,0,5,0],
 "logging_2____init_____8py.html#a0f6283a20f5bafcc67fe83298fc188a6":[11,0,1,1,0,5,0,1],
-"logging_2____init_____8py.html#a238e475e1e31e3ca1c51d47572fc3a90":[11,0,1,1,0,5,0,3],
-"logging_2____init_____8py.html#a2678833870f26ec8c5a8e802b05872b8":[11,0,1,1,0,5,0,5],
-"logging_2____init_____8py.html#a6d65a7212662afaab80ee9bf2fdabd92":[11,0,1,1,0,5,0,0]
+"logging_2____init_____8py.html#a238e475e1e31e3ca1c51d47572fc3a90":[11,0,1,1,0,5,0,3]
 };

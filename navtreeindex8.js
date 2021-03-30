@@ -1,5 +1,8 @@
 var NAVTREEINDEX8 =
 {
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#a94b9d362ab031bd0da363c120c1bbd76":[11,0,7,2,5,23],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#a952b9ba684754818c7394f751b821d05":[11,0,7,2,5,13],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#a99af5c6b6e7749b03b003ca6da7ee33a":[11,0,7,2,5,44],
 "_e_f_r32_2_c_h_i_p_platform_config_8h.html#aa3e4561a1a56490753b2439dd46b337f":[11,0,7,2,5,37],
 "_e_f_r32_2_c_h_i_p_platform_config_8h.html#aa8cb98d017ed7e8bb3d37f122ebfe275":[11,0,7,2,5,20],
 "_e_f_r32_2_c_h_i_p_platform_config_8h.html#aab03d621d59a610c7ceabe15aa617506":[11,0,7,2,5,45],
@@ -246,8 +249,5 @@ var NAVTREEINDEX8 =
 "_e_s_p32_2_c_h_i_p_platform_config_8h.html#afee02f23687104c6b21f978b81482206":[11,0,7,3,6,36],
 "_e_s_p32_2_c_h_i_p_platform_config_8h_source.html":[11,0,7,3,6],
 "_e_s_p32_2_configuration_manager_impl_8cpp.html":[11,0,7,3,7],
-"_e_s_p32_2_configuration_manager_impl_8h.html":[11,0,7,3,8],
-"_e_s_p32_2_configuration_manager_impl_8h.html#a0c2b9fda49ebb693b70c024d7f086870":[11,0,7,3,8,2],
-"_e_s_p32_2_configuration_manager_impl_8h.html#aa339b4bbbc137aab908ac19ebd3460e3":[11,0,7,3,8,1],
-"_e_s_p32_2_configuration_manager_impl_8h_source.html":[11,0,7,3,8]
+"_e_s_p32_2_configuration_manager_impl_8h.html":[11,0,7,3,8]
 };

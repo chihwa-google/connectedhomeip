@@ -31,7 +31,7 @@ var dir_07debba6119e8fae289f5c0650c95439 =
     [ "CHIPFaultInjection.cpp", "_c_h_i_p_fault_injection_8cpp.html", null ],
     [ "CHIPFaultInjection.h", "_c_h_i_p_fault_injection_8h.html", "_c_h_i_p_fault_injection_8h" ],
     [ "CHIPMem-Malloc.cpp", "_c_h_i_p_mem-_malloc_8cpp.html", null ],
-    [ "CHIPMem-SimpleAlloc.cpp", "_c_h_i_p_mem-_simple_alloc_8cpp.html", null ],
+    [ "CHIPMem-Simple.cpp", "_c_h_i_p_mem-_simple_8cpp.html", "_c_h_i_p_mem-_simple_8cpp" ],
     [ "CHIPMem.cpp", "_c_h_i_p_mem_8cpp.html", "_c_h_i_p_mem_8cpp" ],
     [ "CHIPMem.h", "_c_h_i_p_mem_8h.html", "_c_h_i_p_mem_8h" ],
     [ "CHIPMemString.h", "_c_h_i_p_mem_string_8h.html", "_c_h_i_p_mem_string_8h" ],

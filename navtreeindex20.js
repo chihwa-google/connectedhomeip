@@ -1,5 +1,10 @@
 var NAVTREEINDEX20 =
 {
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html#afc46d6ecc624d264c565d3e8c2df87d8":[10,0,1,5,1,4],
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_characteristic.html":[10,0,1,5,2],
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_characteristic.html#a06fdb982b511a75c04cfb83dde7b2838":[10,0,1,5,2,12],
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_characteristic.html#a0aa5085a6253c7e454b8bb8b312d5565":[10,0,1,5,2,16],
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_characteristic.html#a0c23b8ca1cb9165532dee7971911088a":[10,0,1,5,2,4],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_characteristic.html#a1ba7d7b52f91622bbb10dd08bc7b4d23":[10,0,1,5,2,17],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_characteristic.html#a4dbede37047019584a9fb3106f33d982":[10,0,1,5,2,5],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_characteristic.html#a5394262907ec5f98402af7c6462df1d9":[10,0,1,5,2,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX20 =
 "classchip_1_1_chip_utility_1_1_chip_utility.html#a5013ca11aa399ce167d9380b913b45d3":[10,0,1,9,0,0],
 "classchip_1_1_chip_utility_1_1_chip_utility.html#a5e8be21808e7f8c9c66f95a782eec5ff":[10,0,1,9,0,6],
 "classchip_1_1_chip_utility_1_1_chip_utility.html#a800a816f1974cc56b65dc2903426db9a":[10,0,1,9,0,4],
-"classchip_1_1_chip_utility_1_1_chip_utility.html#ab507bdbf65db80825855763f35dd95ca":[10,0,1,9,0,3],
-"classchip_1_1_controller_1_1_application_basic_cluster.html":[10,0,1,10,0],
-"classchip_1_1_controller_1_1_application_basic_cluster.html#a4ec9c3ff3f11de7e45b085cb3258b87a":[10,0,1,10,0,2],
-"classchip_1_1_controller_1_1_application_basic_cluster.html#a63e7e20aa609e096846e50af1e149ac8":[10,0,1,10,0,8],
-"classchip_1_1_controller_1_1_application_basic_cluster.html#a7508af937b1705666c772653f599be02":[10,0,1,10,0,4],
-"classchip_1_1_controller_1_1_application_basic_cluster.html#a771e5aa62eb79af391703176a0ad6aac":[10,0,1,10,0,3]
+"classchip_1_1_chip_utility_1_1_chip_utility.html#ab507bdbf65db80825855763f35dd95ca":[10,0,1,9,0,3]
 };

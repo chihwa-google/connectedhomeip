@@ -1,5 +1,8 @@
 var NAVTREEINDEX12 =
 {
+"_linux_2_c_h_i_p_platform_config_8h.html#a7ac5617767de0ed14976fb3b042e4280":[11,0,7,6,10,31],
+"_linux_2_c_h_i_p_platform_config_8h.html#a8867aa7a26debef00255a559ec087f01":[11,0,7,6,10,30],
+"_linux_2_c_h_i_p_platform_config_8h.html#a88c111bb4451c24c5efc9db2cd244d6b":[11,0,7,6,10,17],
 "_linux_2_c_h_i_p_platform_config_8h.html#a8918057a248c253a311c7e9e67754057":[11,0,7,6,10,7],
 "_linux_2_c_h_i_p_platform_config_8h.html#a90e732b8888318763da3d6499a1e2981":[11,0,7,6,10,16],
 "_linux_2_c_h_i_p_platform_config_8h.html#a94b9d362ab031bd0da363c120c1bbd76":[11,0,7,6,10,18],
@@ -246,8 +249,5 @@ var NAVTREEINDEX12 =
 "_peer_address_8h.html#ade3bfdcf371e172855de66da8ddcaf68a470516836d44cb6fe03b42bb7beff5e2":[11,0,11,0,3,1,2],
 "_peer_address_8h.html#ade3bfdcf371e172855de66da8ddcaf68a7934d40c7c17315d892e8d5d745b1c66":[11,0,11,0,3,1,0],
 "_peer_address_8h.html#ade3bfdcf371e172855de66da8ddcaf68a9cfe38b93cdff5d14e712910b4be0fd3":[11,0,11,0,3,1,3],
-"_peer_address_8h_source.html":[11,0,11,0,3],
-"_peer_connection_state_8h.html":[11,0,11,13],
-"_peer_connection_state_8h.html#a2d9ec6f3a479fc36cd40adb9d4e3be19":[11,0,11,13,1],
-"_peer_connection_state_8h_source.html":[11,0,11,13]
+"_peer_address_8h_source.html":[11,0,11,0,3]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classmdns_1_1_minimal_1_1_txt_responder.html#a13e3e55632cd49b5c18b01ca3fd592b4":[10,0,4,0,40,1],
+"classmdns_1_1_minimal_1_1_txt_responder.html#a3f76c95408a1c6cc31531e1a85ccdf60":[10,0,4,0,40,0],
 "commands_8cpp.html":[11,0,6,2,0],
 "commands_8cpp.html#a0253c9a20dad54a97533aa146d3707da":[11,0,6,2,0,0],
 "commands_8cpp.html#a0ac659f0fe6ad9b6be961a66bd644f71":[11,0,6,2,0,1],
@@ -243,11 +245,9 @@ var NAVTREEINDEX36 =
 "freertos__bluetooth_8h.html#af8fd03a1a754dade58d251d6a0bc64fe":[11,0,7,2,17,10],
 "freertos__bluetooth_8h.html#afdd91381de4d24aa8e31a536d5214f12":[11,0,7,2,17,17],
 "freertos__bluetooth_8h_source.html":[11,0,7,2,17],
-"functions.html":[10,3,0,0],
 "functions.html":[10,3,0],
+"functions.html":[10,3,0,0],
 "functions__.html":[10,3,0,1],
 "functions_a.html":[10,3,0,2],
-"functions_b.html":[10,3,0,3],
-"functions_c.html":[10,3,0,4],
-"functions_d.html":[10,3,0,5]
+"functions_b.html":[10,3,0,3]
 };

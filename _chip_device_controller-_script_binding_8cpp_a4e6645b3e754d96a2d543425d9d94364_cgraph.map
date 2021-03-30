@@ -1,5 +1,7 @@
 <map id="pychip_Stack_Init" name="pychip_Stack_Init">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,141,32"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a93cd137a84802c233858f319af2551a7" title="This function is called by CHIP layer to initialize memory and resources required for proper function..." alt="" coords="189,5,385,32"/>
-<area shape="rect" id="node3" href="$namespacechip_1_1_platform.html#aa95ce41639f01a45b9f1fa33029cbf03" title=" " alt="" coords="433,5,688,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,42,141,69"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a93cd137a84802c233858f319af2551a7" title="This function is called by CHIP layer to initialize memory and resources required for proper function..." alt="" coords="189,42,385,69"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_platform.html#aa95ce41639f01a45b9f1fa33029cbf03" title=" " alt="" coords="433,42,688,69"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_mutex.html#a71ad2bce59bfc56b67345d8da0ef1375" title=" " alt="" coords="736,5,891,47"/>
+<area shape="rect" id="node5" href="$_private_heap_8cpp.html#aa0c6e7dc6099ad844c2f90776f3aa367" title=" " alt="" coords="752,71,875,98"/>
 </map>

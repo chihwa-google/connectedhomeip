@@ -1,4 +1,8 @@
 <map id="CHIPPlatformMemoryRealloc" name="CHIPPlatformMemoryRealloc">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,216,32"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a8d62416c2a12cfb6715f557ca9dbe72f" title="This function is called by the Chip layer to change the size of the memory block pointed to by p." alt="" coords="264,5,487,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,216,83"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a68027b0fbad83aa6839779f76e52a50c" title="This function is called by the Chip layer to change the size of the memory block pointed to by p." alt="" coords="264,56,487,83"/>
+<area shape="rect" id="node3" href="$_private_heap_8cpp.html#a5f66482eac1abd1a9aa67568a2e447b4" title=" " alt="" coords="535,56,685,83"/>
+<area shape="rect" id="node4" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="761,5,840,32"/>
+<area shape="rect" id="node5" href="$_private_heap_8cpp.html#a64e27a5f88358df24ce6f38c68dba99d" title=" " alt="" coords="733,56,868,83"/>
+<area shape="rect" id="node6" href="$_private_heap_8cpp.html#abc169053b31cdb83d3ac8610594b1267" title=" " alt="" coords="735,107,866,133"/>
 </map>

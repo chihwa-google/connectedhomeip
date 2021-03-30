@@ -1,4 +1,6 @@
 <map id="CHIPPlatformMemoryCalloc" name="CHIPPlatformMemoryCalloc">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,208,32"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a66e03b428c1d873c26c11aed99611d97" title="This function is called by the CHIP layer to allocate a block of memory for an array of num elements,..." alt="" coords="256,5,471,32"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a36e74f8a96bbeccb88d656a39c68ff40" title="This function is called by the CHIP layer to allocate a block of memory for an array of num elements,..." alt="" coords="256,5,471,32"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="519,5,725,32"/>
+<area shape="rect" id="node4" href="$_private_heap_8cpp.html#a64e27a5f88358df24ce6f38c68dba99d" title=" " alt="" coords="773,5,908,32"/>
 </map>

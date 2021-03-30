@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"classmdns_1_1_minimal_1_1_const_header_ref.html#ab53099fe691a81a23cb9e4a32fddd9d6":[10,0,4,0,4,14],
+"classmdns_1_1_minimal_1_1_const_header_ref.html#abf29358b17bcaf9aa92823bff43e1f0d":[10,0,4,0,4,15],
 "classmdns_1_1_minimal_1_1_const_header_ref.html#ac8a45749404ed1c9a2da443ec096415b":[10,0,4,0,4,16],
 "classmdns_1_1_minimal_1_1_const_header_ref.html#ad2c253278ed22eb216c66da8d149316e":[10,0,4,0,4,11],
 "classmdns_1_1_minimal_1_1_const_header_ref.html#addf62d8d8e0f5250678c6194132de4b6":[10,0,4,0,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "classmdns_1_1_minimal_1_1_txt_resource_record.html#a90622d4384f0da9023c34d3dd0eb4d33":[10,0,4,0,39,3],
 "classmdns_1_1_minimal_1_1_txt_resource_record.html#acaba9f9baeff0bddcd10dbefa80d946e":[10,0,4,0,39,2],
 "classmdns_1_1_minimal_1_1_txt_resource_record.html#adb36393e8c4b7f4695c3926aa94ca1d2":[10,0,4,0,39,0],
-"classmdns_1_1_minimal_1_1_txt_responder.html":[10,0,4,0,40],
-"classmdns_1_1_minimal_1_1_txt_responder.html#a13e3e55632cd49b5c18b01ca3fd592b4":[10,0,4,0,40,1],
-"classmdns_1_1_minimal_1_1_txt_responder.html#a3f76c95408a1c6cc31531e1a85ccdf60":[10,0,4,0,40,0]
+"classmdns_1_1_minimal_1_1_txt_responder.html":[10,0,4,0,40]
 };

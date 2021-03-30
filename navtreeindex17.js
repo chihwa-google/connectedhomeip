@@ -1,5 +1,10 @@
 var NAVTREEINDEX17 =
 {
+"cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#a910ebbddd7f84aee20cde04258d7895f":[11,0,7,0,27,0],
+"cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#a9743e72706c8b7435c62348a4ded64cf":[11,0,7,0,27,3],
+"cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#a98d12345d246d5e55b6c8d749e771ac3":[11,0,7,0,27,1],
+"cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#aad8d4dbae6b55b8487c68a46f528a467":[11,0,7,0,27,4],
+"cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#aeb0c28823f132fcaa928fc74712bb515":[11,0,7,0,27,5],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h.html":[11,0,7,0,28],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h.html#a00e7c0274434f58261393bf8987f4802":[11,0,7,0,28,1],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h.html#a7ab1b3e5bc95785294e398fa15b0d0d3":[11,0,7,0,28,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX17 =
 "class_c_h_i_p_clusters_1_1_chip_clusters.html#ab71c82113840690699cbbc855118d058":[10,0,3,0,132],
 "class_c_h_i_p_clusters_1_1_chip_clusters.html#ab87bf6d1074690ce4146390a1b09f08a":[10,0,3,0,44],
 "class_c_h_i_p_clusters_1_1_chip_clusters.html#ab8d6902322115187ff030c87f141dabf":[10,0,3,0,37],
-"class_c_h_i_p_clusters_1_1_chip_clusters.html#abce91b66de7de38293d1b27993fa92f9":[10,0,3,0,85],
-"class_c_h_i_p_clusters_1_1_chip_clusters.html#abceaa82fa83869f994eb206f3dc2f284":[10,0,3,0,146],
-"class_c_h_i_p_clusters_1_1_chip_clusters.html#ac2b6914ebb31e80ce03d54f9c42c1cbf":[10,0,3,0,142],
-"class_c_h_i_p_clusters_1_1_chip_clusters.html#ac30521a8cf03cae273cd7da1449d8bb0":[10,0,3,0,74],
-"class_c_h_i_p_clusters_1_1_chip_clusters.html#ac3eb044a0af79ab169cb11063ab03376":[10,0,3,0,137],
-"class_c_h_i_p_clusters_1_1_chip_clusters.html#ac4a82be5588926ff9c996abe31bd698c":[10,0,3,0,100]
+"class_c_h_i_p_clusters_1_1_chip_clusters.html#abce91b66de7de38293d1b27993fa92f9":[10,0,3,0,85]
 };

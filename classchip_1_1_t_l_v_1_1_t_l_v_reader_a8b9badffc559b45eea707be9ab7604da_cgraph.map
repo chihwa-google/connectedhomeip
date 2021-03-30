@@ -1,6 +1,8 @@
 <map id="chip::TLV::TLVReader::DupBytes" name="chip::TLV::TLVReader::DupBytes">
 <area shape="rect" id="node1" title="Allocates and returns a buffer containing the value of the current byte or UTF8 string." alt="" coords="5,49,161,90"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="209,5,416,32"/>
-<area shape="rect" id="node3" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="211,56,414,83"/>
-<area shape="rect" id="node4" href="$namespacechip_1_1_t_l_v.html#a122b2b4bc311900dfa62fd9bb916c876" title="Returns true if the specified TLV type is a UTF8 or byte string." alt="" coords="218,107,407,133"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="209,5,416,32"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="211,56,414,83"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_t_l_v.html#a122b2b4bc311900dfa62fd9bb916c876" title="Returns true if the specified TLV type is a UTF8 or byte string." alt="" coords="218,107,407,133"/>
+<area shape="rect" id="node3" href="$_private_heap_8cpp.html#a64e27a5f88358df24ce6f38c68dba99d" title=" " alt="" coords="464,5,599,32"/>
+<area shape="rect" id="node5" href="$_private_heap_8cpp.html#abc169053b31cdb83d3ac8610594b1267" title=" " alt="" coords="466,56,597,83"/>
 </map>

@@ -1,4 +1,6 @@
 <map id="chip::Platform::MemoryInit" name="chip::Platform::MemoryInit">
-<area shape="rect" id="node1" title="This function is called by CHIP layer to initialize memory and resources required for proper function..." alt="" coords="5,5,201,32"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#aa95ce41639f01a45b9f1fa33029cbf03" title=" " alt="" coords="249,5,504,32"/>
+<area shape="rect" id="node1" title="This function is called by CHIP layer to initialize memory and resources required for proper function..." alt="" coords="5,42,201,69"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#aa95ce41639f01a45b9f1fa33029cbf03" title=" " alt="" coords="249,42,504,69"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_mutex.html#a71ad2bce59bfc56b67345d8da0ef1375" title=" " alt="" coords="552,5,707,47"/>
+<area shape="rect" id="node4" href="$_private_heap_8cpp.html#aa0c6e7dc6099ad844c2f90776f3aa367" title=" " alt="" coords="568,71,691,98"/>
 </map>

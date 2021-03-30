@@ -1,5 +1,7 @@
 <map id="JNI_OnLoad" name="JNI_OnLoad">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,101,32"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a93cd137a84802c233858f319af2551a7" title="This function is called by CHIP layer to initialize memory and resources required for proper function..." alt="" coords="149,5,345,32"/>
-<area shape="rect" id="node3" href="$namespacechip_1_1_platform.html#aa95ce41639f01a45b9f1fa33029cbf03" title=" " alt="" coords="393,5,648,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,42,101,69"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a93cd137a84802c233858f319af2551a7" title="This function is called by CHIP layer to initialize memory and resources required for proper function..." alt="" coords="149,42,345,69"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_platform.html#aa95ce41639f01a45b9f1fa33029cbf03" title=" " alt="" coords="393,42,648,69"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_mutex.html#a71ad2bce59bfc56b67345d8da0ef1375" title=" " alt="" coords="696,5,851,47"/>
+<area shape="rect" id="node5" href="$_private_heap_8cpp.html#aa0c6e7dc6099ad844c2f90776f3aa367" title=" " alt="" coords="712,71,835,98"/>
 </map>

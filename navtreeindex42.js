@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"structchip_1_1_crypto_1_1_spake2p___context.html#a8c8baba2582fd62f7c49fc4d9d9c8c8a":[10,0,1,11,10,13],
+"structchip_1_1_crypto_1_1_spake2p___context.html#aa5199a6f5f4032acd36ce7dccd15d072":[10,0,1,11,10,6],
 "structchip_1_1_crypto_1_1_spake2p___context.html#aa5cfd29dba7ce3d3bc0c537a95d2feb0":[10,0,1,11,10,2],
 "structchip_1_1_crypto_1_1_spake2p___context.html#aabf085540c8d83c4dcb2745e4b543f1c":[10,0,1,11,10,9],
 "structchip_1_1_crypto_1_1_spake2p___context.html#ac20df745200756b6a5a3c6d9d6bb215d":[10,0,1,11,10,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "structchip_1_1_t_l_v_1_1_utilities_1_1_find_predicate_context.html#acbfe7c7fe16cd686fdaff675dee8f805":[10,0,1,31,1,1,1],
 "structchip_1_1_t_l_v_1_1_utilities_1_1_find_predicate_context.html#adbc4f4108ccad3e10b8ee82bc04581c2":[10,0,1,31,1,1,3],
 "structchip_1_1_transport_1_1_access_control_list.html":[10,0,1,32,0],
-"structchip_1_1_transport_1_1_access_control_list.html#a641b33b2659dbd8e3484de0f113e07c6":[10,0,1,32,0,0],
-"structchip_1_1_transport_1_1_operational_credentials.html":[10,0,1,32,6],
-"structchip_1_1_transport_1_1_operational_credentials.html#a0bce98b10be6c3feaa093db263834ccc":[10,0,1,32,6,0]
+"structchip_1_1_transport_1_1_access_control_list.html#a641b33b2659dbd8e3484de0f113e07c6":[10,0,1,32,0,0]
 };

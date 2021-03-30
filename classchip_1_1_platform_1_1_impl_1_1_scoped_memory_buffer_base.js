@@ -7,7 +7,6 @@ var classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base =
     [ "Alloc", "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#a82f8d7875efde1f0dc1bad7369521e46", null ],
     [ "Calloc", "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#adce84f324d3e2ae13b276583c27116e2", null ],
     [ "Free", "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#aa1c42896cfe0a909016134a4b3909b0a", null ],
-    [ "LongTermAlloc", "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#ab035699d36ec15f67599ee1be802da99", null ],
     [ "operator bool", "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#a3692c1a95e6772403021ec2cdf424ffe", null ],
     [ "operator!", "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#aac53746cf88b8f40abe7061a9ee37310", null ],
     [ "operator=", "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#ad8f46e84f8db15b97d3e25b0b2301409", null ],
