@@ -139,7 +139,7 @@ CHIP_ERROR DeviceController::Init(NodeId localDeviceId, PersistentStorageDelegat
 
 #ifdef CHIP_APP_USE_INTERACTION_MODEL
     mExchangeManager                                     = chip::Platform::New<Messaging::ExchangeManager>();
-    mcsp::MessageCounterManager * gMessageCounterManager = chip::Platform::New<mcsp::MessageCounterManager>();
+    message_counter::MessageCounterManager * gMessageCounterManager = chip::Platform::New<message_counter::MessageCounterManager>();
     mMessageCounterManager                               = gMessageCounterManager;
 #else
     mMessageCounterManager = chip::Platform::New<Transport::DummyMessageCounterManager>();
