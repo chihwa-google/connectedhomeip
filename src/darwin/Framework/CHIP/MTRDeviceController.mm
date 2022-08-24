@@ -337,6 +337,7 @@ static NSString * const kErrorCSRValidation = @"Extracting public key from CSR f
 
 - (BOOL)pairDevice:(uint64_t)deviceID
      discriminator:(uint16_t)discriminator
+     isShortDiscriminator:(BOOL)isShortDiscriminator
       setupPINCode:(uint32_t)setupPINCode
              error:(NSError * __autoreleasing *)error
 {
@@ -348,9 +349,13 @@ static NSString * const kErrorCSRValidation = @"Extracting public key from CSR f
 
         std::string manualPairingCode;
         chip::SetupPayload payload;
-        payload.discriminator.SetLongValue(discriminator);
+        if (isShortDiscriminator) {
+          payload.discriminator.SetShortValue(discriminator);
+        }
+        else {
+          payload.discriminator.SetLongValue(discriminator);
+        }
         payload.setUpPINCode = setupPINCode;
-
         auto errorCode = chip::ManualSetupPayloadGenerator(payload).payloadDecimalStringRepresentation(manualPairingCode);
         success = ![self checkForError:errorCode logMsg:kErrorSetupCodeGen error:error];
         VerifyOrReturn(success);
